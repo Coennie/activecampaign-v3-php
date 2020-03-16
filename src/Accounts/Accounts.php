@@ -38,9 +38,10 @@ class Accounts extends Resource
 	 */
 	public function get(int $id, array $params = [])
 	{
+		$query = (isset($params['include'])) ? "?include=".$params['include'] : "";
 		$req = $this->client
 			->getClient()
-			->get('/api/3/accounts/' . $id, $params);
+			->get('/api/3/accounts/' . $id . $query, $params);
 
 		return $req->getBody()->getContents();
 	}

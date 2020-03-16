@@ -1,5 +1,5 @@
 {
-  "name": "mediatoolkit/activecampaign-v3-php",
+  "name": "coennie/activecampaign-v3-php",
   "description": "PHP Wrapper for ActiveCampaign",
   "require": {
     "guzzlehttp/guzzle": "~6.3"
@@ -10,8 +10,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Mediatoolkit",
-      "email": "info@mediatoolkit.com"
+      "name": "Coen van der Kolk",
+      "email": "coen@nubos.nl"
     }
   ],
   "autoload": {

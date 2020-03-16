@@ -1,6 +1,6 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign;
+namespace Coennie\ActiveCampaign;
 
 class Client
 {

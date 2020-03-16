@@ -1,8 +1,8 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Contacts;
+namespace Coennie\ActiveCampaign\Contacts;
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Coennie\ActiveCampaign\Resource;
 
 /**
  * Class Contacts

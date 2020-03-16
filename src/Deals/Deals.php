@@ -1,9 +1,9 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Deals;
+namespace Coennie\ActiveCampaign\Deals;
 
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Coennie\ActiveCampaign\Resource;
 
 /**
  * Class Deals

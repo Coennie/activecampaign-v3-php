@@ -16,12 +16,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Mediatoolkit\\ActiveCampaign\\": "src/"
+      "Coennie\\ActiveCampaign\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Mediatoolkit\\Tests\\": "tests/"
+      "Coennie\\Tests\\": "tests/"
     }
   }
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mediatoolkit\Tests\Contacts;
+namespace Coennie\Tests\Contacts;
 
-use Mediatoolkit\ActiveCampaign\Contacts\Contacts;
-use Mediatoolkit\Tests\ResourceTestCase;
+use Coennie\ActiveCampaign\Contacts\Contacts;
+use Coennie\Tests\ResourceTestCase;
 
 class ContactsTest extends ResourceTestCase
 {

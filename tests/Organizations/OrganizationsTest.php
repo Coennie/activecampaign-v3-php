@@ -5,11 +5,11 @@
  * Time: 15:18
  */
 
-namespace Mediatoolkit\Tests\Organizations;
+namespace Coennie\Tests\Organizations;
 
 
-use Mediatoolkit\ActiveCampaign\Organizations\Organizations;
-use Mediatoolkit\Tests\ResourceTestCase;
+use Coennie\ActiveCampaign\Organizations\Organizations;
+use Coennie\Tests\ResourceTestCase;
 
 class OrganizationsTest extends ResourceTestCase
 {

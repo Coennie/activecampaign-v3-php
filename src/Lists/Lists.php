@@ -1,9 +1,9 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Lists;
+namespace Coennie\ActiveCampaign\Lists;
 
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Coennie\ActiveCampaign\Resource;
 
 /**
  * Class Lists

@@ -5,11 +5,11 @@
  * Time: 17:01
  */
 
-namespace Mediatoolkit\Tests\Tracking;
+namespace Coennie\Tests\Tracking;
 
 
-use Mediatoolkit\ActiveCampaign\Tracking\EventTracking;
-use Mediatoolkit\Tests\ResourceTestCase;
+use Coennie\ActiveCampaign\Tracking\EventTracking;
+use Coennie\Tests\ResourceTestCase;
 
 class EventTrackingTest extends ResourceTestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Tracking;
+namespace Coennie\ActiveCampaign\Tracking;
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Coennie\ActiveCampaign\Resource;
 
 /**
  * Class SiteTracking

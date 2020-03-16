@@ -1,8 +1,8 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Organizations;
+namespace Coennie\ActiveCampaign\Organizations;
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Coennie\ActiveCampaign\Resource;
 
 /**
  * Class Organizations

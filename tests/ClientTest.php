@@ -1,9 +1,9 @@
 <?php
 
-namespace Mediatoolkit\Tests;
+namespace Coennie\Tests;
 
 
-use Mediatoolkit\ActiveCampaign\Client;
+use Coennie\ActiveCampaign\Client;
 
 class ClientTest extends ResourceTestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Tags;
+namespace Coennie\ActiveCampaign\Tags;
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Coennie\ActiveCampaign\Resource;
 
 /**
  * Class Tags

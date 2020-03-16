@@ -52,18 +52,20 @@ class Contacts extends Resource
         return $req->getBody()->getContents();
     }
 
-    /**
-     * Get contact
-     * @see https://developers.activecampaign.com/reference#get-contact
-     *
-     * @param int $id
-     * @return string
-     */
-    public function get(int $id)
+	/**
+	 * Get contact
+	 * @see https://developers.activecampaign.com/reference#get-contact
+	 *
+	 * @param int $id
+	 * @param array $params
+	 *
+	 * @return string
+	 */
+    public function get(int $id, array $params = [])
     {
         $req = $this->client
             ->getClient()
-            ->get('/api/3/contacts/' . $id);
+            ->get('/api/3/contacts/' . $id, $params);
 
         return $req->getBody()->getContents();
     }

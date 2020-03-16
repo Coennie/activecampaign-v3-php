@@ -8,7 +8,7 @@
 namespace Mediatoolkit\Tests\Organizations;
 
 
-use Mediatoolkit\ActiveCampaign\Organizat\Organizations;
+use Mediatoolkit\ActiveCampaign\Organizations\Organizations;
 use Mediatoolkit\Tests\ResourceTestCase;
 
 class OrganizationsTest extends ResourceTestCase

@@ -8,7 +8,7 @@
 namespace Mediatoolkit\Tests\Tracking;
 
 
-use Mediatoolkit\ActiveCampaign\Track\EventTracking;
+use Mediatoolkit\ActiveCampaign\Tracking\EventTracking;
 use Mediatoolkit\Tests\ResourceTestCase;
 
 class EventTrackingTest extends ResourceTestCase

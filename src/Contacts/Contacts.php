@@ -185,6 +185,22 @@ class Contacts extends Resource
         return $req->getBody()->getContents();
     }
 
+	/**
+	 * List all tags the contact has
+	 * @see Undocumented feature
+	 *
+	 * @param int $id
+	 * @return string
+	 */
+	public function listTags(int $id)
+	{
+		$req = $this->client
+			->getClient()
+			->get('/api/3/contacts/' . $id . '/contactTags');
+
+		return $req->getBody()->getContents();
+	}
+
     /**
      * List all contacts
      * @see https://developers.activecampaign.com/reference#list-all-contacts
